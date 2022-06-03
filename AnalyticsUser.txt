@@ -1,0 +1,14 @@
+import java.io.File;
+import java.util.Scanner;
+public class AnalyticsUser
+{
+    public static void main(String[] args) {
+        File file = new File("C:\Users\kyeou\OneDrive\Desktop\Student Object\test.txt");
+        Scanner sc = new Scanner(file);
+     
+        while (sc.hasNextLine()){
+            System.out.println(sc.nextLine());       
+        }
+        // C:\Users\kyeou\OneDrive\Desktop\Student Object\test.txt
+    }
+}
